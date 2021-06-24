@@ -99,28 +99,55 @@ textarea {
 html {
   background-color: #fff;
   height: 100%;
+
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
-  height: 100%;
+    background: url(../img/tacos.jpg) repeat center center fixed;
+    background-size: cover;
+    height:100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+    padding: 2em;
+    font-size: 1.25em;
+     height: 100%;
 }
 h1 {
+    font-family: 'Vast Shadow', cursive;
     color: #FF1493;
     text-align: center;
 }
 
+p {
+    color: white;
+    font-family: 'Monstserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    background-color: #9ACD32;
+    opacity: 80%;
+    padding:6px;
+    size:30px;
+    text-align: center;
+}
+
+footer {
+    font-family: Montserrat; 
+    font-weight:400px;
+    color: black;
+    background-color: #9ACD32;
+    justify-content:center;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
 .wrapper {
-  /*add display:flex and set justify-content to space-between*/
   display:flex;
   font-weight: 700;
   justify-content:space-between;
 }
 
 .div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #FF1493;
   line-height: 1.5em;
   font-size: 1.6em;
@@ -133,6 +160,8 @@ h1 {
   text-align: center;
   padding: 8px;
 }
+
+
 
 
 
